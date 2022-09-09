@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Practice with Forms</title>
+    </head>
+
+    <form action="registration" method="POST">
+        <! -- Normal text box --> 
+        <label for="username":>Username:</label><br>
+        <input type="text" name="username">
+
+        <! -- Password text type blocks the input --> 
+        <label for="password">Password:</label><br>
+        <input type="password"  />
+        <input type="submit"  />
+        
+        <! -- Allows for box to be checked and unchecked --> 
+        <input type="checkbox" name="dog" value="Dog"  />
+        <label for="dog"> I own a dog</label><br>
+
+        <! -- Only one option may be selected in Radio text type --> 
+        <input type="radio" name="right" value="Right"  />
+        <label for="right"> I am right-handed</label><br>
+        <input type="radio" name="left" value="Left"  />
+        <label for="left"> I am left-handed</label><br>
+
+        <! -- Other text types: number, email, file --> 
+        <input type="number" name="age"  />
+        <label for="age"> What is your age?</label><br>
+        <label for="email"> Email: </label><br>
+        <input type="email" name="email"  />
+        <input type="file" name = "file"  />
+        <label for="file"> Please upload your file here </label><br>
+        
+        <! --  Text types, the first type allows one line, the second allows a box  --> 
+        <input type="text" name="username">
+        <textareaname="multiline" rows="5"</textareaname>
+
+        <! -- Drop down menu --> 
+        <select name="food">
+            <option value="chocolate">Chocolate</option><option value=""></option>
+            <option value="ice_cream">Ice Cream</option>
+        </select>
+
+    </form>
+
+    <head>
+        <title>My Website</title>
+        <! -- this shows a link to the CSS stylesheet saved elsewhere -->
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div>
+            <h1>Here is a heading</h1>
+        </div>
+        <div>
+            <p>Here is a paragraph</p>
+        </div>
+    </body>
+</html>
