@@ -1,4 +1,89 @@
+
+/* this is the selector. h1*/
+/* Everything between the {} is a declaration block*/
+/* Declaration blocks have two elements. Property and Value */
+
 h1 {
+    /* Color is the property and "rgb..." is the value */
     color: rgb(50, 78, 7);
     background-color: grey;
 }
+/* The ID rule allows you to specifiy different rules. takes precidence over the html selector rule*/
+#header1 {
+    color: green;
+}
+
+/* Class selectors prefixed with a ".". */
+.navigation {
+    margin: 2px;
+}
+
+/* This will only change the h1 elements that are within the blog identifier*/
+#blog h1​ {
+    color: blue;
+  }
+
+:hover {
+color: orange;
+}
+
+/* This below is for a child selector, it will make it so only the next h1 under the blog will change 
+color to blue. once a div is hit, it will not affect the other lines*/
+#blog > h1​ {
+    color: blue;
+  }
+
+/* From CSS Version 3, there are five main ways to reference a color.
+
+By RGB value, adds the colors red (R), green (G) and blue (B) together to create colors
+
+    p { 
+        color: rgb(255, 0, 0); 
+    }​
+
+By RGBA value, an extension of RGB that add an alpha (A) channel. 
+The alpha channel represents the opacity, or transparency, of the color.
+    p { 
+        color: rgba(255, 0, 0, 128); 
+    }​
+
+By HSL value, Hue (H) = 0-360 degrees around the circle. 0-red. 120-green. 240-blue.
+    Saturation (S) = 0-100% from center out. center is grey. 
+    and Lightness (L) = 0-100% bottom of cylinder is 0, black. top is 100, white. 
+    p { 
+        color: hsl(0, 100%, 50%);
+    }​
+
+By hex value 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F.
+    RGB 255,0,0 would be written as hexadecimal #FF0000.
+
+By predefined color names. 
+    black
+    silver
+    gray
+    white
+    maroon
+    red */
+
+/* Text and font size: use the "font-family property"
+
+    p { 
+        font-family: "Courier New", monospace;
+        font-size: 12px;
+    }​
+
+Text Transformation: uppercase,  lowercase,  capitalize  and none.
+    p { 
+        text-transform: uppercase;
+    }​
+
+Text Decoration: text-decoration-line, text-decoration-color, text-decoration-style and text-decoration-thickness
+    p { 
+        text-decoration-line: underline;
+        text-decoration-color: red;
+        text-decoration-style: solid;
+        text-decoration-thickness: 5px;
+    }​
+
+
+    ​*/
