@@ -1,0 +1,16 @@
+#photo { 
+    border-width: 2px; color: blue
+}
+h1 {
+    color: blue
+}
+h2 {
+    color: grey
+}
+
+div {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-right: 4px;
+  margin-left: 4px;
+}
