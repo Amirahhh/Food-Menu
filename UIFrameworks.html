@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+    <body>
+        
+<button type="button" class="btn btn-primary">Click this button!</button>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Our Menu</h1>
+                    <h2>Falafel</h2>
+                    <p>Chickpeas, herbs & spices.</p>
+                    <img src="falafel.jpeg" class="img-fluid"/>
+                    <h2>Pasts Salad</h2>
+                    <p>Lettuce, vegetables & mozzarella</p>
+                    <img src="salad.jpeg" class="img-fluid"/>
+                </div>
+                <div class="col">
+                    <h2>Prices</h2>
+                    <table class="table">
+                        <tr>
+                            <td>Falafel</td>
+                            <td>$12.00</td>
+                        </tr>
+                        <tr>
+                            <td>Pasta Salad</td>
+                            <td>$10</td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div> 
+        </div> 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<!-- Dependencies are libraries and frameworks you can use in your code. On the front end you do this by referencing the Javascript or CSS file in the HTML file. 
+If dependency depends on others, that is a dependnecy tree. It would take a long time to download all them to the computer so we use Package Managers.
+Package Manager also provides ability to publish your own packages. 
+Most common Package Manager for FE Dev is Node Package Manager (NPM).
+Do reference them in your HTML, you can use a bundling tool so you save time. Combines them into a single file. 
+Bundles (Gulp Webpack) -->
+
+<!-- Responsive Design: Allows your design to look well put together no matter what device you view it on.
+    flexible grids: Defined in percentage values allowing them to adjust depending on screen size.
+    fluid images. CSS Max width is 100% the images will scale down smaller if the containing region is smaller than the image's size but never grow larger. 
+    media queries. CSS. Can query the display size, orientation and aspect ratio
+Space between columns is the gutter. SPace between content left and right is the margin
+
+Pixel value is often referred to as the break point. The point where a website's content and layout will adapt to provide the best UX.
+3 Grids for break points:
+    Fixed Grid: Fixed width columns, flexible margins.
+    Fluid Grid: Goes edge to edge. Columns either grow or shrink to adapt to available space. 
+    Hybrid Grid: Both Fluid and Fixed components. 
+-->
+
+<!-- Breakpoints:
+    -Extra Small: <576px (Default breakpoint. Bootstrap is Mobile first)
+    -Sm: >= 576px 
+    -Md: >=768px 
+    -Lg: >= 992px 
+    -Xl: >= 1200pxl
+    -XXL: >= 1400pxl -->
+
+
+<body>
+    <div class="container">
+        <div class="row"> 
+            <div class="col-lg-6">
+                <!-- Primary = blue as default. primary=modifyer-->
+                <div class="alert-primary" role="alert">
+                A primary alert.
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
