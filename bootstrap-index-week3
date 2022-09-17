@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Bio Page</title>
+    <link href="bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+        </div>
+        <div id="bio" class="col-12 col-lg-6" text-center>
+            <h1>Amirah</h1>
+            <img src="photo.jpg" class="img-fluid">
+        </div>
+        <div id="more" class="col-12 col-lg-6">
+            <h2>Favortie Music Artists</h2> 
+            <ul>
+                <li>Miguel</li>
+                <li>Pnb Rock</li>
+                <li>Giveon</li>
+                <li>Bad Bunny</li>
+                <li>Luke Combs</li>
+            </ul>
+            <h2>Favorite Films</h2>
+            <ol>
+                <li>The Princess and the Frog</li>
+                <li>The Tourist</li>
+                <li>Malefacent</li>
+                <li>Man on Fire</li>
+                <li>Guardians of the Galaxy</li>
+            </ol>
+            <a href=https://www.facebook.com/AmirahMajied21 class="btn btn-primary">My Meta Profile</a>
+        </div>
+    </div>
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>
