@@ -1,0 +1,18 @@
+# Opens the entire contents of the file as a string that will contain all the characters
+with open("samplefile.txt", "r") as file:
+    print(file.read())
+# this will contain only the specified number of characters
+    print(file.read(40))
+
+# returns a single line as a string. only the first line/smae if only characters (10)
+with open("samplefile.txt", "r") as file:
+    print(file.readline(10))
+# reads entire contents and returns in an ordered list
+with open("samplefile.txt", "r") as file:
+    print(file.readlines())
+
+# To print these out line by line:
+with open("samplefile.txt", "r") as file:
+    data = (file.readlines())
+    for x in data:
+        print(x)
